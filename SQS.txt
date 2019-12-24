@@ -1,0 +1,27 @@
+
+varios prudutores -> sqs_fila -> consumidores
+
+- totalmente gerenciado
+- scala de 1 msg por segundo ate 1000 por segundo
+- retencao 4 dias ate 14 dias
+- sem limite de quantas msg 
+- baixa latencia < 10 ms para publicar e consumir
+- pode haver msg duplicadas (ao menos uma entrega)
+- Limitacao de 256 kb por mensagem enviada
+
+SQS - Produzindo mensagens
+- body: string de até 256 KB
+- Adiciona attributos 
+- Prove entrega de delay opcional
+
+Retorna
+ - Mensagem identificador
+ - MD5 hash do body
+
+Casos de Usos:
+-Desacoplar apps (ex: pagamentos async)
+-Buffer de escritas em um banco de dados (ex: aplicativo de votação)
+-Lidar com grandes trabalhos de mensagens chegando ( ex: enviador de email)
+
+-SQS pode se integrar com auto scaling through cloudwatch
+

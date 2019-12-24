@@ -1,0 +1,7 @@
+
+- consumidores
+- Recebe msgs do sqs
+- Processa a msg com visibilidade timeout
+- Deleta a mensagem usando o msg ID 
+
+

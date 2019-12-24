@@ -1,0 +1,6 @@
+- Firt IN - First Out
+- Nome da fila deve terminar com .fifo
+- Menor throughput ( ate 3000 por segundo com batching,  300/s sem batching)
+- Msg sao processadas em ordem pelos consumidores
+- msg sao entregues somente uma vez
+- 5 -minutos 

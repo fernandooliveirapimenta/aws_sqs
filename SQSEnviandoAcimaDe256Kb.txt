@@ -1,0 +1,10 @@
+- Usando Sqs extended client (java library)
+
+SQS Queue
+Amazon s3 bucket
+
+Produtor:
+- envia pequeno metadado no sqs e salva a mensagem grande no s3
+
+Consumidor:
+- recebe pequeno metadado do sqs e recupera o grande do s3

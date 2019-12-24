@@ -1,0 +1,11 @@
+-Maximo de 120000 msg sendo processadas pelos consumers
+- Batch max de 10 msg - max 256 kb
+- Content msg (XML, Json, Text)
+- Filas Standard ou seja diferente de FIFO tem Transasoes por segundo (TPS) ilimitados
+- FiFo ate 3000 msg por segundo usando batch
+- Max msg size 256Kb 
+- Retencao de 1 min ate 14 dias
+- Prcos pago por api request
+
+
+
