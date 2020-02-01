@@ -1,0 +1,1 @@
+LongPooling economiza chamadas da api sqs com isso gasta menos dinheiro

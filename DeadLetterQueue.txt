@@ -1,0 +1,1 @@
+se a msg esta dando erro no processamento configure o num max de processamento se ela ultrapassar enviar para uma fila deadletter queue
